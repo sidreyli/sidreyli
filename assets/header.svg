@@ -1,0 +1,176 @@
+<svg width="850" height="290" viewBox="0 0 850 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dotgrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.6" fill="#30363d" opacity="0.5"/>
+    </pattern>
+    <linearGradient id="termGlow" x1="0" y1="0" x2="850" y2="0">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.07"/>
+      <stop offset="50%" stop-color="#7ee787" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.07"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="850" y2="290">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#7ee787" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Typing reveal clips -->
+    <clipPath id="reveal1">
+      <rect x="0" y="48" width="0" height="30">
+        <animate attributeName="width" from="0" to="850" dur="0.8s" begin="0.3s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="reveal2">
+      <rect x="0" y="78" width="0" height="30">
+        <animate attributeName="width" from="0" to="850" dur="0.6s" begin="1.4s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="reveal3">
+      <rect x="0" y="118" width="0" height="30">
+        <animate attributeName="width" from="0" to="850" dur="0.9s" begin="2.3s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="reveal4">
+      <rect x="0" y="148" width="0" height="30">
+        <animate attributeName="width" from="0" to="850" dur="0.5s" begin="3.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="reveal5">
+      <rect x="0" y="178" width="0" height="30">
+        <animate attributeName="width" from="0" to="850" dur="0.7s" begin="4.3s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="reveal6">
+      <rect x="0" y="208" width="0" height="30">
+        <animate attributeName="width" from="0" to="850" dur="0.5s" begin="5.3s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="reveal7">
+      <rect x="0" y="238" width="0" height="30">
+        <animate attributeName="width" from="0" to="850" dur="0.4s" begin="6.0s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes scanline { 0% { transform: translateY(-10px); } 100% { transform: translateY(290px); } }
+    @keyframes pulseGlow { 0%,100% { opacity: 0.07; } 50% { opacity: 0.15; } }
+    @keyframes nodeFloat1 { 0%,100% { opacity:0.15; } 50% { opacity:0.4; } }
+    @keyframes nodeFloat2 { 0%,100% { opacity:0.1; } 50% { opacity:0.3; } }
+
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'SF Mono', 'Consolas', monospace; }
+    .prompt { fill: #58a6ff; font-size: 14px; }
+    .tilde { fill: #7ee787; font-size: 14px; }
+    .cmd { fill: #e6edf3; font-size: 14px; }
+    .output { fill: #9ca3af; font-size: 14px; }
+    .highlight { fill: #7ee787; font-size: 14px; }
+    .accent { fill: #58a6ff; font-size: 14px; }
+    .dim { fill: #484f58; font-size: 14px; }
+    .cursor { animation: blink 1s step-end infinite; fill: #e6edf3; }
+  </style>
+
+  <!-- Outer border with gradient -->
+  <rect x="0.5" y="0.5" width="849" height="289" rx="11.5" stroke="url(#borderGrad)" stroke-width="1" fill="none"/>
+
+  <!-- Main background -->
+  <rect width="850" height="290" rx="12" fill="#0d1117"/>
+
+  <!-- Dot grid pattern -->
+  <rect width="850" height="290" rx="12" fill="url(#dotgrid)"/>
+
+  <!-- Ambient glow -->
+  <rect width="850" height="290" rx="12" fill="url(#termGlow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Floating circuit nodes - decorative background -->
+  <g opacity="0.12">
+    <circle cx="720" cy="80" r="2" fill="#58a6ff"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="750" cy="120" r="1.5" fill="#7ee787"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="90" r="1" fill="#58a6ff"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="150" r="1.5" fill="#7ee787"><animate attributeName="opacity" values="0.15;0.45;0.15" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="180" r="2" fill="#58a6ff"><animate attributeName="opacity" values="0.1;0.4;0.1" dur="5s" repeatCount="indefinite"/></circle>
+    <line x1="720" y1="80" x2="750" y2="120" stroke="#58a6ff" stroke-width="0.5" opacity="0.3"/>
+    <line x1="750" y1="120" x2="780" y2="90" stroke="#58a6ff" stroke-width="0.5" opacity="0.2"/>
+    <line x1="700" y1="150" x2="750" y2="120" stroke="#7ee787" stroke-width="0.5" opacity="0.25"/>
+    <line x1="760" y1="180" x2="750" y2="120" stroke="#58a6ff" stroke-width="0.5" opacity="0.2"/>
+  </g>
+
+  <!-- Scanline -->
+  <rect width="850" height="1.5" fill="#58a6ff" opacity="0.025" rx="1">
+    <animateTransform attributeName="transform" type="translate" from="0 -10" to="0 290" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Title bar -->
+  <rect width="850" height="38" rx="12" fill="#161b22"/>
+  <rect x="0" y="14" width="850" height="24" fill="#161b22"/>
+
+  <!-- Window controls -->
+  <circle cx="22" cy="19" r="5.5" fill="#ff5f57" opacity="0.85"/>
+  <circle cx="42" cy="19" r="5.5" fill="#febc2e" opacity="0.85"/>
+  <circle cx="62" cy="19" r="5.5" fill="#28c840" opacity="0.85"/>
+
+  <!-- Title bar text -->
+  <text x="425" y="23" text-anchor="middle" class="mono" font-size="12" fill="#484f58">sidharth@github  ~  bash  </text>
+
+  <!-- Separator line under title bar -->
+  <line x1="0" y1="38" x2="850" y2="38" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Line 1: whoami command -->
+  <g clip-path="url(#reveal1)">
+    <text y="66" class="mono">
+      <tspan x="28" class="prompt">sidharth</tspan><tspan class="dim">@</tspan><tspan class="prompt">github</tspan><tspan class="dim">:</tspan><tspan class="tilde">~</tspan><tspan class="dim">$ </tspan><tspan class="cmd">whoami</tspan>
+    </text>
+  </g>
+
+  <!-- Line 2: whoami output -->
+  <g clip-path="url(#reveal2)">
+    <text y="92" class="mono">
+      <tspan x="28" class="highlight">></tspan><tspan class="output" dx="8">software engineer</tspan><tspan class="dim" dx="4">.</tspan><tspan class="output" dx="4">builder</tspan><tspan class="dim" dx="4">.</tspan><tspan class="output" dx="4">ai-native dev</tspan>
+    </text>
+  </g>
+
+  <!-- Line 3: cat command -->
+  <g clip-path="url(#reveal3)">
+    <text y="132" class="mono">
+      <tspan x="28" class="prompt">sidharth</tspan><tspan class="dim">@</tspan><tspan class="prompt">github</tspan><tspan class="dim">:</tspan><tspan class="tilde">~</tspan><tspan class="dim">$ </tspan><tspan class="cmd">cat status.txt</tspan>
+    </text>
+  </g>
+
+  <!-- Line 4: status output -->
+  <g clip-path="url(#reveal4)">
+    <text y="158" class="mono">
+      <tspan x="28" class="highlight">></tspan><tspan class="output" dx="8">building @ </tspan><tspan class="accent">ChatAndBuild</tspan><tspan class="dim" dx="6">|</tspan><tspan class="output" dx="6">BSc Information Systems @ </tspan><tspan class="accent">SMU</tspan>
+    </text>
+  </g>
+
+  <!-- Line 5: ls command -->
+  <g clip-path="url(#reveal5)">
+    <text y="198" class="mono">
+      <tspan x="28" class="prompt">sidharth</tspan><tspan class="dim">@</tspan><tspan class="prompt">github</tspan><tspan class="dim">:</tspan><tspan class="tilde">~</tspan><tspan class="dim">$ </tspan><tspan class="cmd">cat goals.txt</tspan>
+    </text>
+  </g>
+
+  <!-- Line 6: ls output -->
+  <g clip-path="url(#reveal6)">
+    <text y="224" class="mono">
+      <tspan x="28" class="highlight">></tspan><tspan class="output" dx="8">using technology to make the world a better place</tspan>
+    </text>
+  </g>
+
+  <!-- Line 7: empty prompt with cursor -->
+  <g clip-path="url(#reveal7)">
+    <text y="258" class="mono">
+      <tspan x="28" class="prompt">sidharth</tspan><tspan class="dim">@</tspan><tspan class="prompt">github</tspan><tspan class="dim">:</tspan><tspan class="tilde">~</tspan><tspan class="dim">$ </tspan>
+    </text>
+    <rect x="198" y="245" width="9" height="17" class="cursor" rx="1"/>
+  </g>
+</svg>
