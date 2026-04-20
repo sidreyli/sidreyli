@@ -148,6 +148,14 @@ sidharth@github:~$ cat about.md
 
 <br/>
 
+## `> run contribution.snake`
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sidreyli/sidreyli/output/github-snake-dark.svg" alt="Snake eating my contribution graph" width="100%"/>
+</p>
+
+<br/>
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=80&section=footer" width="100%"/>
 </p>
