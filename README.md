@@ -49,7 +49,7 @@ sidharth@github:~$ cat about.md
   </tr>
   <tr>
     <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="36" height="36" alt="Express"/>
+      <img src="https://img.shields.io/badge/Express-000?style=for-the-badge&logo=express&logoColor=white" height="28" alt="Express"/>
       <br/><sub><b>Express.js</b></sub>
     </td>
     <td align="center" width="110">
@@ -71,6 +71,28 @@ sidharth@github:~$ cat about.md
     <td align="center" width="110">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" height="36" alt="Git"/>
       <br/><sub><b>Git</b></sub>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+## `> cat experience.log`
+
+<table>
+  <tr>
+    <td width="64" align="center">
+      <img src="assets/800_800.png" width="44" height="44" alt="ChatAndBuild"/>
+    </td>
+    <td>
+      <b>Software Engineer Intern</b> &nbsp;·&nbsp; <a href="https://chatandbuild.com">ChatAndBuild</a>
+      <br/>
+      <sub>Building AI-powered tools for ChatAndBuild</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <img src="assets/chatandbuild banner.png" width="100%" alt="ChatAndBuild Banner"/>
     </td>
   </tr>
 </table>
