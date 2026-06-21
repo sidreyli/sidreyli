@@ -4,8 +4,7 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/sidharthrajesh2004"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
-  <a href="mailto:sidharthrajesh@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=sidreyli&style=flat-square&color=161b22&label=visitors" alt="Profile views"/>
+  <a href="mailto:sidharthrajesh@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 <br/>
@@ -122,9 +121,7 @@ sidharth@github:~$ cat about.md
         <img src="https://img.shields.io/badge/LightGBM-9ACD32?style=flat-square"/>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
       </p>
-      <p>
-        <a href="https://cargilldatathon.vercel.app/"><b>View Live &rarr;</b></a>
-      </p>
+
     </td>
   </tr>
 </table>
