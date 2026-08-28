@@ -17,63 +17,6 @@ sidharth@github:~$ cat about.md
 
 <br/>
 
-## `> ls tech-stack/`
-
-<table>
-  <tr>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" alt="Python"/>
-      <br/><sub><b>Python</b></sub>
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="36" height="36" alt="JavaScript"/>
-      <br/><sub><b>JavaScript</b></sub>
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="36" height="36" alt="HTML"/>
-      <br/><sub><b>HTML</b></sub>
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="36" height="36" alt="CSS"/>
-      <br/><sub><b>CSS</b></sub>
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" height="36" alt="React"/>
-      <br/><sub><b>React</b></sub>
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript"/>
-      <br/><sub><b>TypeScript</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="110">
-      <img src="https://img.shields.io/badge/Express-000?style=for-the-badge&logo=express&logoColor=white" height="28" alt="Express"/>
-      <br/><sub><b>Express.js</b></sub>
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="36" height="36" alt="FastAPI"/>
-      <br/><sub><b>FastAPI</b></sub>
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="36" height="36" alt="MongoDB"/>
-      <br/><sub><b>MongoDB</b></sub>
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="36" height="36" alt="SQL"/>
-      <br/><sub><b>SQL</b></sub>
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="36" height="36" alt="Jira"/>
-      <br/><sub><b>Jira</b></sub>
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" height="36" alt="Git"/>
-      <br/><sub><b>Git</b></sub>
-    </td>
-  </tr>
-</table>
-
 <br/>
 
 ## `> cat experience.log`
@@ -97,34 +40,6 @@ sidharth@github:~$ cat about.md
 </table>
 
 <br/>
-
-## `> cat featured-project.json`
-
-<table>
-  <tr>
-    <td>
-      <h3>&#x1F3C6; Maritime Voyage Optimisation Platform</h3>
-      <p>
-        <img src="https://img.shields.io/badge/1st_Place-SGD_1,500-7ee787?style=flat-square" alt="1st Place"/>
-        <img src="https://img.shields.io/badge/Cargill_Datathon-Feb_2025-58a6ff?style=flat-square" alt="Cargill Datathon"/>
-      </p>
-      <p>
-        Optimised vessel-cargo assignments using the <b>Hungarian algorithm</b> to maximise a <b>USD 5.8M portfolio</b> across 15 vessels and 11 cargoes, with real-time TCE calculations and sensitivity analysis on bunker prices and laytime.
-      </p>
-      <p>
-        Architected a freight analytics platform with <b>FastAPI</b> and <b>React/TypeScript</b> alongside an agentic AI chatbot for voyage economics. Trained a <b>LightGBM</b> port-delay model hitting <b>99.7% accuracy</b> (MAE 0.064 days) on 26 engineered features across Asia's six busiest ports.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-        <img src="https://img.shields.io/badge/LightGBM-9ACD32?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      </p>
-
-    </td>
-  </tr>
-</table>
 
 <br/>
 
